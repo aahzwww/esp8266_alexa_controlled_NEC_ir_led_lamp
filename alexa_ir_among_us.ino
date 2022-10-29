@@ -40,7 +40,7 @@ void wifiSetup() {
 
     // Connect
     Serial.printf("[WIFI] Connecting to %s ", "BTHub4-RQ7P");
-    WiFi.begin("BTHub4-RQ7P", "3b4bc4eb93");
+    WiFi.begin("SSID", "password");
 
     // Wait
     while (WiFi.status() != WL_CONNECTED) {
